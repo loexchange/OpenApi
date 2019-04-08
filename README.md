@@ -19,4 +19,4 @@
 * [/open/api/new_order](api_file/new_order.md)      查询当前订单
 * [/open/api/order_info](api_file/order_info.md)     查询订单详情
 * [/open/api/common/symbols](api_file/symbols.md) 查询所有币对
-* [/open/api/user/account](api_file/account.md)   查询个资产
+* [/open/api/user/account](api_file/account.md)   查询个人资产
