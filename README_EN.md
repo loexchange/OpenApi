@@ -1,4 +1,4 @@
-# Loex Exchange Public Interface Document
+# Loex Exchange Public Interface Document[(中文)](README.md)
 * official website https://www.loex.io
 * API openapi.loex.io
 
