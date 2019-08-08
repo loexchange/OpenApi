@@ -1,5 +1,5 @@
 # 创建订单
-- 请求方式: GET
+- 请求方式: POST
 - url: https://{host}/open/api/create_order
 - 传入参数 
 ```
