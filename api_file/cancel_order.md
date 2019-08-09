@@ -1,5 +1,5 @@
 # 取消单个订单
-- 请求方式: GET
+- 请求方式: POST
 - url: https://{host}/open/api/cancel_order
 - 传入参数 
 ```
