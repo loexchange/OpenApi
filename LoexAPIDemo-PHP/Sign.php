@@ -27,14 +27,9 @@
             if($urlencode){
                 $v = urlencode($v);
             }
-            $buff .= $k . $v . '&';
+            $buff .= $k . $v;
         }
-        $str = '';
-        if (strlen($buff) > 0)
-        {
-            $str = substr($buff, 0, strlen($buff)-1);
-        }
-        return $str;
+        return $buff;
     }
 
 ?>
