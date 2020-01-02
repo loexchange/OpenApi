@@ -20,3 +20,15 @@
 * [/open/api/order_info](api_file/order_info.md)     查询订单详情
 * [/open/api/common/symbols](api_file/symbols.md) 查询所有币对
 * [/open/api/user/account](api_file/account.md)   查询个人资产
+
+### 全局返回code说明
+| 状态码 | 说明 |
+| --- | --- |
+| 110042 | 访问受限，请联系客服 |
+| 101 | 请求量受限，受全局访问与单用户访问限制 |
+| MISS_API_KEY | 缺少api_key参数，可在www.loex.io申请 |
+| MISS_SIGN | 缺少签名参数 |
+| MISS_TIMESTAMP | 缺少time参数，精确到秒 |
+| SIGN_EXPIRED | 签名以过期，time时间必须为当前unix时间戳，精确到秒 |
+| Fail | symbol access not allowed，申请api时，需要授权币对 |
+
