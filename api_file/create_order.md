@@ -12,7 +12,7 @@ volume={volume}&symbol={symbol}&side={side}&api_key={api_key}&price={price}&sign
   | api_key | 接口钥匙 | * |
   | sign | 签名数据 | * |
   | symbol | 币对 | * |
-  | time | 当前时间戳 | * |
+  | time | 当前时间戳 | * 精确到秒 |
   | volume | 数量 | * |
   | side | 买卖 | * BUY或SELL |
   | type | 挂单类型 | 1:限价交易 2:市价交易 |
