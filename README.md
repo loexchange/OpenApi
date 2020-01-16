@@ -1,6 +1,6 @@
 # 雷盾交易所公共接口文档[(English)](README_EN.md)
 * 官网地址https://www.loex.io
-* 调用接口域名 openapi.loex.io
+* 调用接口域名 open.loex.io
 
 
 ### 接口列表
